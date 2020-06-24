@@ -1,4 +1,8 @@
 /*partes HTML*/
+*{
+	padding:0px;
+	margin:0px;
+}
 body{
 	background: #991B19;
 }
