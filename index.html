@@ -1,357 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Radio Xkekos</title>
-    
-    <link rel="stylesheet" href="estilos.css">
-    
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Página web en mantenimiento</title>
+	<meta charset="utf-8"/>
+	<meta name="description" content="Página en mantenimiento"/>
+	<style>
+		/*TIPOGRAFÍAS*/
+		@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+		/*INICIALIZACIÓN DE ESTILOS*/
+		*{
+			margin:0;
+			padding:0;
+			box-sizing:border-box;
+		}
+
+		body{background-color:#5bb6f6;}
+
+		/*PERSONALIZACIÓN DE P.MANTENIMIENTO*/
+		.mantenimiento{
+			width:600px;
+			height:450px;
+			padding:32px;
+			border:1px solid #000;
+			border-radius:10px;
+			margin-top:-200px;
+			margin-left:-300px;
+			background-color:#fff;
+			position:fixed;
+			top:50%;
+			left:50%;
+		}
+		.mantenimiento h1, .mantenimiento h2, .mantenimiento p{
+			font-family:"noto sans", sans-serif;
+		}
+
+		.mantenimiento h1{
+			font-size:3em;
+			text-align:center;
+			padding:16px;
+		}
+		.mantenimiento h2{
+			font-size:2em;
+			font-style:italic;
+		}
+		.mantenimiento p{
+			margin:16px 0;
+			line-height:1.5em;
+		}
+
+	</style>
 </head>
 <body>
-<h1 class="titulo">Radio Xkekos</h1>
-<div class="radio">
-<audio controls autoplay name="media"><source src="http://radio1.habbo.wf/stream/9316/;" type="audio/mpeg"></audio>
-</div>
-<div class="Horario">
-	<h2>Horario de transmisión</h2>
-	<table id="tabla_css">
-		<tr class="titulos">
-			<th>Bloque</th>
-			<th>Horario</th>
-			<th>Lunes</th>
-			<th>Martes</th>
-			<th>Miercoles</th>
-			<th>Jueves</th>
-			<th>Viernes</th>
-			<th>Sabado</th>
-			<th>Domingo</th>
-		</tr>
-		<tr>
-			<td rowspan="7" class="titulo_mañana">Mañana</td>
-		</tr>
-		<tr class="mañana">
-			<td>6:00 - 6:59</td>
-			<td>Auto-DJ</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr class="mañana">
-			<td>7:00 - 7:59</td>
-			<td>Auto-DJ</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr class="mañana">
-			<td>8:00 - 8:59</td>
-			<td>Auto-Dj</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr class="mañana">
-			<td>9:00 - 9:59</td>
-			<td>Auto-Dj</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr class="mañana">
-			<td>10:00 - 10:59</td>
-			<td>lBuk</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr  class="mañana">
-			<td>11:00 - 11:59</td>
-			<td>YeraiD</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td rowspan="7" class="titulo_tarde">Tarde</td>
-		</tr>
-		<tr class="tarde">
-			<td>12:00 - 12:59</td>
-			<td>lBuk</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr class="tarde">
-			<td>13:00 - 13:59</td>
-			<td>Evadicto</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr class="tarde">
-			<td>14:00 - 14:59</td>
-			<td>Gomita17</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr class="tarde">
-			<td class="tarde">15:00 - 15:59</td>
-			<td>YeraiD</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr class="tarde">
-			<td class="tarde">16:00 - 16:59</td>
-			<td>EVENTO VISA</td>
-			<td>K-POP TIME</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr class="tarde">
-			<td class="tarde">17:00 - 17:59</td>
-			<td>EVENTO VISA</td>
-			<td>K-POP TIME</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td rowspan="7" class="titulo_noche">Noche</td>
-		</tr>
-		<tr class="noche">
-			<td>18:00 - 18:59</td>
-			<td>Meganross</td>
-			<td>Shir</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr class="noche">
-			<td>19:00 - 19:59</td>
-			<td>Gomita17</td>
-			<td>MeganRoss</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr class="noche">
-			<td>20:00 - 20:59</td>
-			<td>SleepyKuran</td>
-			<td>SleepyKuran</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr class="noche">
-			<td>21:00 - 21:59</td>
-			<td>MiguelSulca</td>
-			<td>MiguelSulca</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr class="noche">
-			<td class="noche">22:00 - 22:59</td>
-			<td>KariAlv</td>
-			<td>KariAlv</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr  class="noche">
-			<td>23:00 - 23:59</td>
-			<td>Jeimmy-C</td>
-			<td>Matthew</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td rowspan="7" class="titulo_amanecer">Amanecer</td>
-		</tr>
-		<tr class="amanecer">
-			<td>00:00 - 00:59</td>
-			<td>KariAlv</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr class="amanecer">
-			<td>01:00 - 01:59</td>
-			<td>Auto-Dj</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr class="amanecer">
-			<td>02:00 - 02:59</td>
-			<td>Auto-Dj</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr class="amanecer">
-			<td>03:00 - 03:59</td>
-			<td>Auto-Dj</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr class="amanecer">
-			<td>04:00 - 04:59</td>
-			<td>Auto-Dj</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr class="amanecer">
-			<td>05:00 - 05:59</td>
-			<td>Auto-Dj</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-	</table>
-</div>
-   
-    <footer>
-       
-       <div class="container-footer-all">
-        
-            <div class="container-body">
-
-                <div class="colum1">
-                    <h1>Mas informacion de la radio</h1>
-
-                    <p>La radio xkekos fue creada con el fin de entretener a los usuario de xkekos.tv.</p>
-
-                </div>
-
-                <div class="colum2">
-
-                    <h1>Redes Sociales</h1>
-
-                    <div class="row">
-						<img src="Imagenes/Icons/facebook.png">
-						<label><a href="https://www.facebook.com/xKekosRadio/" target="_blank" style="text-decoration: none; color:#c7c7c7;">Síguenos en Facebook</a></label>
-					</div>
-                    <div class="row">
-                        <img src="Imagenes/Icons/instagram.png">
-                        <label><a href="https://www.instagram.com/xkekosfm/" target="_blank" style="text-decoration: none; color:#c7c7c7;">Síguenos en Instagram</a></label>
-                    </div>
-                    <div class="row">
-                        <img src="Imagenes/Icons/tik-tok.png">
-                        <label><a href="https://www.tiktok.com/@kekosfm" target="_blank" style="text-decoration: none; color:#c7c7c7;">Síguenos en Tik Tok</a></label>
-                    </div>
-                    <div class="row">
-                        <img src="Imagenes/Icons/twitter.png">
-                        <label><a href="https://twitter.com/FmKekos" target="_blank" style="text-decoration: none; color:#c7c7c7;">Síguenos en Twitter</a></label>
-                    </div>
-
-                </div>
-
-                <div class="colum3">
-
-                    <h1>Información Contactos</h1>
-
-                    <div class="row2">
-                        <img src="Imagenes/Icons/Gmail.png">
-                        <label>publicidad.xkekos@gmail.com</label>
-                    </div>
-
-                    <div class="row2">
-                        <img src="Imagenes/Icons/Gmail.png">
-                         <label></label>
-                    </div>
-
-                </div>
-
-            </div>
-        
-        </div>
-        
-        <div class="container-footer">
-               <div class="footer">
-                    <div class="copyright">
-                        © 2020 Todos los Derechos Reservados | <a href="">Radio xkekos</a>
-                    </div>
-
-                    <div class="information">
-                        <a href="">Información Radio</a> | <a href="">Privación y Política</a> | <a href="">Términos y Condiciones</a>
-                    </div>
-                </div>
-
-            </div>
-        
-    </footer>
-    
+	<div class="mantenimiento">
+		<h1>Página web en mantenimiento</h1>
+		<p>Lamentamos el inconveniente, pero estamos trabajando para mejorar la página y ofrecerles un mejor servicio.</p>
+		<h2>Web disponible: </h2>
+		<p class="casio" id="reloj">El día 11 de julio</p>
+		<h2>Att: Coordinador de publicidad</h2>
+	</div>
 </body>
 </html>
