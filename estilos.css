@@ -187,8 +187,6 @@ aside article p{
 	width: 81%;
 	float: right;
 	border-radius: 10px;
-	align-content: center;
-	justify-content: center;
 }
 iframe{
 	border:none;
@@ -201,10 +199,11 @@ iframe{
 @media (max-width: 980px){
 
 	.content_box{
-		justify-content: center;
 		float: none;
 		margin-left: 35px;
 		width: 90%;
+		align-content: center;
+		justify-content: center;
 	}
 
 	iframe{
