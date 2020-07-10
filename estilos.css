@@ -187,6 +187,8 @@ aside article p{
 	width: 81%;
 	float: right;
 	border-radius: 10px;
+	align-content: center;
+	justify-content: center;
 }
 iframe{
 	border:none;
