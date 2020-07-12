@@ -1,148 +1,61 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-	<meta charset="utf-8">
-	<meta name="description" content="Esta la página oficial de la radio en donde podrán escuchar nustras transmisiones sin necesidad de estar presentes en el holo, adicional de que podrán estar informados de los eventos, actividades, de todo el equipo de la radio y sobre todo el horario de transmisión de cada uno de los Djs.">
-	<meta name="keywords" content="Radio, Xkekos, Diverisión, Holos, Radio xkekos, Djs, Hoteles, Habbo, Música">
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<title>Radio xkekos</title>
-	<link rel="shortcut icon" href="https://cdn.pixabay.com/photo/2015/11/02/18/10/microphone-1018787_960_720.png">
-	<link rel="stylesheet" type="text/css" href="estilos.css">
+	<title>Página web en mantenimiento</title>
+	<meta charset="utf-8"/>
+	<meta name="description" content="Página en mantenimiento"/>
+	<style>
+		/*TIPOGRAFÍAS*/
+		@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+		/*INICIALIZACIÓN DE ESTILOS*/
+		*{
+			margin:0;
+			padding:0;
+			box-sizing:border-box;
+		}
+
+		body{background-color:#5bb6f6;}
+
+		/*PERSONALIZACIÓN DE P.MANTENIMIENTO*/
+		.mantenimiento{
+			width:600px;
+			height:400px;
+			padding:32px;
+			border:1px solid #000;
+			border-radius:10px;
+			margin-top:-200px;
+			margin-left:-300px;
+			background-color:#fff;
+			position:fixed;
+			top:50%;
+			left:50%;
+		}
+		.mantenimiento h1, .mantenimiento h2, .mantenimiento p{
+			font-family:"noto sans", sans-serif;
+		}
+
+		.mantenimiento h1{
+			font-size:3em;
+			text-align:center;
+			padding:16px;
+		}
+		.mantenimiento h2{
+			font-size:2em;
+			font-style:italic;
+		}
+		.mantenimiento p{
+			margin:16px 0;
+			line-height:1.5em;
+		}
+
+	</style>
 </head>
 <body>
-	<header>
-		<div class="head_header">
-		<!--<img src="">-->
-		<label class="radio">Radio</label>
-		<label class="xkekos">Xkekos</label>
-		</div>
-		<input type="checkbox" id="btn">
-		<label for="btn" class="menu_btn"><img src="https://img.icons8.com/officexs/30/000000/list.png"/></label>
-		<nav>
-			<ul class="menu">
-				<li><a href="">Inicio</a></li>
-				<li><a href="">Administración</a></li>
-				<li><a href="">Coordinadores</a></li>
-				<li><a href="">Equipo de Djs</a></li>
-				<li><a href="">Equipo de publicistas</a></li>
-				<li><a href="">Eventos</a></li>
-				<li><a href="">Horario</a></li>
-				<li><a href="">Información</a></li>
-				<li><a href="">En vivo</a></li>
-			</ul>
-		</nav>
-	</header>
-	<div class="space">jnedjnejd</div>
-
-
-	<aside>
-
-		<div class="radio_reproductor">
-
-				<div class="titulo"><h1>¡Sintoniza tu radio aquí!</h1></div>
-		<audio id="demo" src="https://radio1.habbo.wf/stream/9316/;" autoplay="autoplay"></audio>
-			<div class="menu_reproductor">
-			  <button onclick="document.getElementById('demo').play()" id="play"></button>
-			  <button onclick="document.getElementById('demo').pause()" id="pause"></button>
-			  <button onclick="document.getElementById('demo').volume+=0.1" id="vol+"></button>
-			  <button onclick="document.getElementById('demo').volume-=0.1" id="vol-"></button>
-			  <label for="play"><img src="https://img.icons8.com/ios-glyphs/30/000000/circled-play.png"/></label>
-			  <label for="pause"><img src="https://img.icons8.com/ios-glyphs/30/000000/circled-pause.png"/></label>
-			  <label for="vol+"><img src="https://img.icons8.com/ios-glyphs/30/000000/high-volume.png"/></label>
-			  <label for="vol-"><img src="https://img.icons8.com/ios-glyphs/30/000000/low-volume.png"/></label>
-			</div> 
-		</div>
-
-		<h1>Infórmate</h1>
-		<article>
-			<h2>Evento Visa</h2>
-			<p>El día de mañana la Dj SleepyKuran llevará el evento “Visa: Miss universo” a las 4 pm col/mex, así qué los esperamos a todo que hagan parte del evento junto con la Dj para disfrutar de ese mega evento que se viene.</p>
-		</article>
-		<article>
-			<h2>Nueva integrante</h2>
-			<p>Queremos darle la bienvenida a Danmish09, la nueva integrante al grupo de publicistas, es grato de verdad ver nuevos jóvenes motivados por el diseño que hagan parte de nuestra hermosa familia.</p>
-		</article>
-		<article>
-			<h2>Lanzamiento de la página oficial</h2>
-			<p>El día 11 de julio se hará el lanzamiento de la página web oficial de la radio de xkekos, espero que les guste mucho y cualquier inconveniente por favor contactarse con el coordinador de publicidad por xkekos, lo pueden encontrar como santihe o discord como satihe#8123.</p>
-		</article>
-		<article>
-			<h2>Nueva integrante</h2>
-			<p>Buenas tardes queremos informarles que ingresó una nueva integrante darle la bienvenida a esta gran familia que es la radio, su nombre es deiryfossati y es un placer tener a alguien nuevo en el grupo. </p>
-		</article>
-	</aside>
-	<div class="content_box">
-	<iframe src="" name="content"></iframe>
+	<div class="mantenimiento">
+		<h1>Página web en mantenimiento</h1>
+		<p>Lamentamos el inconveniente, pero estamos trabajando para mejorar la página y ofrecerles un mejor servicio.</p>
+		<h2>Web disponible: </h2>
+		<p class="casio" id="reloj">El día 11 de julio</p>
 	</div>
-    <footer>
-       
-       <div class="container-footer-all">
-        
-            <div class="container-body">
-
-                <div class="colum1">
-                    <h1>Mas informacion de la radio</h1>
-
-                    <p>La radio xkekos fue creada con el fin de entretener a los usuario de xkekos.tv.</p>
-
-                </div>
-
-                <div class="colum2">
-
-                    <h1>Redes Sociales</h1>
-
-                    <div class="row">
-						<img src="Imagenes/Icons/facebook.png">
-						<label><a href="https://www.facebook.com/xKekosRadio/" target="_blank" style="text-decoration: none; color:#c7c7c7;">Síguenos en Facebook</a></label>
-					</div>
-                    <div class="row">
-                        <img src="Imagenes/Icons/instagram.png">
-                        <label><a href="https://www.instagram.com/xkekosfm/" target="_blank" style="text-decoration: none; color:#c7c7c7;">Síguenos en Instagram</a></label>
-                    </div>
-                    <div class="row">
-                        <img src="Imagenes/Icons/tik-tok.png">
-                        <label><a href="https://www.tiktok.com/@kekosfm" target="_blank" style="text-decoration: none; color:#c7c7c7;">Síguenos en Tik Tok</a></label>
-                    </div>
-                    <div class="row">
-                        <img src="Imagenes/Icons/twitter.png">
-                        <label><a href="https://twitter.com/FmKekos" target="_blank" style="text-decoration: none; color:#c7c7c7;">Síguenos en Twitter</a></label>
-                    </div>
-
-                </div>
-
-                <div class="colum3">
-
-                    <h1>Información Contactos</h1>
-
-                    <div class="row2">
-                        <img src="Imagenes/Icons/Gmail.png">
-                        <label>publicidad.xkekos@gmail.com</label>
-                    </div>
-
-                    <div class="row2">
-                        <img src="Imagenes/Icons/Gmail.png">
-                         <label></label>
-                    </div>
-
-                </div>
-
-            </div>
-        
-        </div>
-        
-        <div class="container-footer">
-               <div class="footer">
-                    <div class="copyright">
-                        © 2020 Todos los Derechos Reservados | <a href="">Radio xkekos</a>
-                    </div>
-
-                    <div class="information">
-                        <a href="">Información Radio</a> | <a href="">Privación y Política</a> | <a href="">Términos y Condiciones</a>
-                    </div>
-                </div>
-
-            </div>
-        
-    </footer>
 </body>
 </html>
